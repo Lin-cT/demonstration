@@ -55,7 +55,7 @@ function login(username, password) {
     .then(response => {
         if (response.status === 200) {
             // Login successful
-            setCookie("username", username, 30);
+            setCookie("username", username, 1);
             window.location.href = "https://lin-ct.github.io/demonstration/CRUD.html";
         } else if (response.status === 404) {
             // User not found
