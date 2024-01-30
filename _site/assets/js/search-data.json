@@ -1,0 +1,86 @@
+{
+  
+
+  
+  
+
+  
+      "page1": {
+          "title": "About Us",
+          "content": "Creators of Alien World .",
+          "url": "http://localhost:4100/demonstration/about/",
+          "relUrl": "/about/",
+          "date": ""
+      }
+      
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+      ,"page6": {
+          "title": "",
+          "content": "Invert Idle Barking Walking",
+          "url": "http://localhost:4100/demonstration/navigation/game.html",
+          "relUrl": "/navigation/game.html",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page7": {
+          "title": "Course Outlines",
+          "content": "| CSSE | CSP | CSA | Game | . . . Investing in your Technical Future . Explore the Computer Science Pathway at Del Norte High School. All Del Norte CompSci classes are designed to provide a real-world development experience. Grading is focused on time invested, analytics, participation with peers, and engagement in learning. . Project-based learning with teacher support | Tech Talks by teacher complimented with Student Teaching | Course learning includes Coding Languages, DevOps, GitHub, Research and Ceativity | Student teams practice Agile Development Methodologies: planning, communication, collaboration | Class lab time provided and approximately 2-3 hours of homework per week | .",
+          "url": "http://localhost:4100/demonstration/",
+          "relUrl": "/",
+          "date": ""
+      }
+      
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+      ,"page12": {
+          "title": "Time Box",
+          "content": "",
+          "url": "http://localhost:4100/demonstration/time/",
+          "relUrl": "/time/",
+          "date": ""
+      }
+      
+  
+
+  
+  
+
+  
+  
+
+  
+      ,"page15": {
+          "title": "New location for dynamic data",
+          "content": "New location for dynamic data . An SQL database is an example of dynamic data. SQLAlchemy 3.x and beyond stores database in the app’s instance folder. The volumes subdirectory with in this folder is made to be consistent with Docker terminology. .",
+          "url": "http://localhost:4100/demonstration/instance/volumes/",
+          "relUrl": "/instance/volumes/",
+          "date": ""
+      }
+      
+  
+
+}
