@@ -93,6 +93,7 @@ function deleteUser(id) {
 }
 
 // Call fetchAndRenderUsers function when the window loads
+window.onload = fetchAndRenderUsers;
 
 // Check if the user is logged in before accessing the CRUD page
 function checkLoggedIn() {
