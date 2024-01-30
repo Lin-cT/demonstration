@@ -17,50 +17,26 @@
     background-color: #f4f4f4;
   }
   .btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 0;
     margin: 10px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 16px;
+    text-decoration: none;
   }
   .btn-signup {
-    background-color: #4CAF50;
-    color: white;
+    color: #4CAF50;
   }
   .btn-login {
-    background-color: #008CBA;
-    color: white;
+    color: #008CBA;
   }
 </style>
 </head>
 <body>
 
-<button class="btn btn-signup" onclick="redirectToSignup()">Sign Up</button>
-<button class="btn btn-login" onclick="redirectToLogin()">Log In</button>
+<button class="btn"><a class="btn-signup" href="https://lin-ct.github.io/demonstration/signup.html">Sign Up</a></button>
+<button class="btn"><a class="btn-login" href="https://lin-ct.github.io/demonstration/login.html">Log In</a></button>
 
-<script>
-  function redirectToSignup() {
-    // Replace this with your signup page URL or function
-    console.log("Redirecting to sign up page...");
-  }
-
-  function redirectToLogin() {
-    // Replace this with your login page URL or function
-    console.log("Redirecting to login page...");
-  }
-</script>
-
-</body>
-</html>
-    <script>
-        function redirectToLogin() {
-            window.location.href = "https://lin-ct.github.io/demonstration/login.html";
-        }
-
-        function redirectToSignup() {
-            window.location.href = "https://lin-ct.github.io/demonstration/signup.html";
-        }
-    </script>
 </body>
 </html>
