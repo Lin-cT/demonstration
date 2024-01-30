@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        .login-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #cccccc00;
+            background-color: rgba(255, 255, 255, 0); /* Adjust the alpha value (0.0 to 1.0) for transparency */
+            margin-top: 50px;
+        }
+        .login-container label {
+            color: white; /* Set the text color to white */
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            color: black; /* Set the text color to black */
+        }
+        .login-container h1 {
+            color: #ffffff; /* Set the text color of "Login" to a different color */
+        }
+        .login-guest-button {
+            text-align: center;
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+            margin: 20px;
+        }
+        .dont-have-account-button {
+            text-align: center;
+            position: absolute;
+            bottom: 10px; /* Adjust the vertical position */
+            right: 0;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+        
+                <button type="button" onclick="authenticateUser()">Login</button>
+            </form>
+        
+            <div id="output"></div>
+            <script src="https://lin-ct.github.io/demonstration/usepass.js"></script>
+        </form>
+    </div>
+    <button class="dont-have-account-button"><a href="https://lin-ct.github.io/demonstration/signup.html">Sign Up</a></button>
+    <!-- Include any footer content if needed -->
+</body>
+</html>
+<script>
+</script>

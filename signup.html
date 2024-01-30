@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        .signup-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #cccccc00;
+            background-color: rgba(255, 255, 255, 0); /* Adjust the alpha value (0.0 to 1.0) for transparency */
+            margin-top: 50px;
+        }
+        .signup-container label {
+            color: white; /* Set the text color to white */
+        }
+        .signup-container input[type="text"],
+        .signup-container input[type="password"] {
+            color: black; /* Set the text color to black */
+        }
+        .signup-container h1 {
+            color: #ffffff; /* Set the text color of "Sign Up" to a different color */
+        }
+        .login-button {
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            margin: 20px;
+        }
+        .login-guest-button {
+            text-align: center;
+            position: absolute;
+            bottom: 50px; /* Adjust the vertical position */
+            right: 0;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h1>Sign Up</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="signupuser" required><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="signuppass" required><br>  
+            <script src="https://lin-ct.github.io/demonstration/usepass.js"></script>
+            <!-- Add more form fields as needed -->
+            <button type = "button" text="Sign Up" onclick = "registerUser()">Sign Up</button>
+        </form>
+        <div id = "output"></div>
+    </div>
+    <button class="login-button"><a href="https://lin-ct.github.io/demonstration/login.html">Log In</a></button>
+    <!-- Include any footer content if needed -->
+</body>
+</html>
