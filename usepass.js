@@ -1,6 +1,6 @@
 // Function to handle account creation
 function createAccount(username, password) {
-    const apiUrl = "http://127.0.0.1:8086/api/users";
+    const apiUrl = "http://127.0.0.1:8086/api/users/";
 
     // Prepare payload
     const payload = {
@@ -107,3 +107,28 @@ function displayError(errorMessage) {
     const output = document.getElementById("output");
     output.innerHTML = `<p style="color: red">${errorMessage}</p>`;
 }
+
+// Check if the user is logged in before accessing the CRUD page
+function checkLoggedIn() {
+    const username = getCookie("username");
+    if (!username) {
+        // If the username cookie doesn't exist, redirect the user + display error
+        displayError("403 Forbidden - You must be logged in. You are not authorized to access this page otherwise.");
+        window.location.href = "https://lin-ct.github.io/demonstration/login.html"; // Redirect to login page
+    }
+}
+
+// Function to retrieve cookie value by name
+function getCookie(name) {
+    const cookies = document.cookie.split(";").map(cookie => cookie.trim());
+    for (const cookie of cookies) {
+        const [cookieName, cookieValue] = cookie.split("=");
+        if (cookieName === name) {
+            return cookieValue;
+        }
+    }
+    return null;
+}
+
+// Call checkLoggedIn function when the window loads
+window.onload = checkLoggedIn;
